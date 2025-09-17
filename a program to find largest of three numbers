@@ -1,0 +1,5 @@
+num1=15
+num2=71
+num3=26
+largest=max(num1,num2,num3)
+print(largest)
