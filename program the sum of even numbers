@@ -1,0 +1,3 @@
+n=int(input("enter how many even number to sum"))
+sum_even=n*(n+1)
+print("the sum of first",n,"even number is",sum_even)
