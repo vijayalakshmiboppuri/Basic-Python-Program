@@ -1,0 +1,3 @@
+a=int(input("enter the number:"))
+result=a-1*10
+print("the output is",result)
