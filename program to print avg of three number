@@ -1,0 +1,3 @@
+a=int(input("enter the number:"))
+squarer=a*a
+print("square of two numbers:",a*2)
