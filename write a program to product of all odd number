@@ -1,0 +1,9 @@
+m=int(input("enter m"))
+n=int(input("enter n"))
+if m>n:
+    m,n=n,m 
+product=1
+for i in range(m,n+1):
+ if i % 2!=0:
+    product*=i
+    print("product of odd numbers between",m,"to",n,"=",product)
