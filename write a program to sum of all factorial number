@@ -1,0 +1,7 @@
+import math
+m=int(input("enter m"))
+n=int(input("enter n"))
+total=0
+for i in range(m,n+1):
+  total+=math.factorial(i)
+print("sum of factorials from",m,"to",n,"=",total)
