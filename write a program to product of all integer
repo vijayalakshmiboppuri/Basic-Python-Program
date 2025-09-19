@@ -1,0 +1,6 @@
+m=int(input("enter m"))
+n=int(input("enter n"))
+product=1
+for i in range(m,n+1):
+    product*=i
+    print("product of numbers from",m,"to",n,"=",product)
